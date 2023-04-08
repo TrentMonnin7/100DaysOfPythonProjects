@@ -1,0 +1,2 @@
+This project is a simple "band name generator". This essentially prompts the user to give the name of the city they grew up in as well as their pets name, combines the two
+and prints the result back to the user. 
