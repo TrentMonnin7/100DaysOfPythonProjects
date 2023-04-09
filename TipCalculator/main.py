@@ -20,5 +20,7 @@ new_friends=float(friends)
 
 final=total_after_tip/new_friends
 
-print(round(final, 3))
+new_final = round(final, 3)
+
+print(new_final)
 
