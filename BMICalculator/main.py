@@ -9,11 +9,11 @@ BMI=float(round(weight/height**2))
 #Conditionals to display what the user's BMI is
 if BMI < 18.5:
     print(f"Your BMI is {BMI}, you are underweight.")
-elif BMI > 18.5 & BMI < 25:
+elif BMI > 18.5 and BMI < 25:
     print(f"Your BMI is {BMI}, you have a normal weight.")
-elif BMI > 25 & BMI < 30:
+elif BMI > 25 and BMI < 30:
     print(f"Your BMI is {BMI}, you are slightly overweight.")
-elif BMI > 30 & BMI < 35:
+elif BMI > 30 and BMI < 35:
     print(f"Your BMI is {BMI}, you are obese.")
 else:
     print(f"Your BMI is {BMI}, you are clinically obese.")
