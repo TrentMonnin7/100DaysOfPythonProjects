@@ -36,7 +36,8 @@ computer_choice = random.randint(0,2)
 emoji_list=[rock, paper, scissors]
 
 #prints the user and computer selected emojis respectively
-print(emoji_list[user_choice])
+if user_choice >= 0 and user_choice <= 2:
+    print(emoji_list[user_choice])
 print("Computer chose: ", emoji_list[computer_choice])
 
 
@@ -64,3 +65,7 @@ if user_choice == 2:
         print("You win")
     else:
         print("Draw")
+
+#added a bit of error handling in case the user doesn't follow the rules
+if user_choice < 0 or user_choice > 2:
+    print("You typed an invalid number, you lose")
