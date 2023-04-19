@@ -1,5 +1,10 @@
-states_of_america =["Delaware", "Pennsylvania", "Ohio"]
+#dirty_dozen =["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
 
-states_of_america.append ("TrentLand")
+#create a nested list
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
-print(states_of_america)
+
+dirty_dozen = [fruits, vegetables]
+
+print(dirty_dozen[1][1])
